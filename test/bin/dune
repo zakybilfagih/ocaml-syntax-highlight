@@ -1,0 +1,4 @@
+(executables
+ (names TextmateCli)
+ (public_names TextmateCli)
+ (libraries textmate))

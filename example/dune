@@ -1,0 +1,3 @@
+(executable
+ (name Generate)
+ (libraries textmate cmarkit))

@@ -1,0 +1,7 @@
+(data_only_dirs first-mate onivim)
+
+(executable
+ (name Test)
+ (libraries textmate alcotest)
+ (preprocess
+  (pps ppx_deriving_yojson)))

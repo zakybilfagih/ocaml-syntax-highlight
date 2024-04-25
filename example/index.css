@@ -1,0 +1,48 @@
+html {
+  --bg-color: initial;
+  background-color: var(--bg-color);
+}
+
+html.dark {
+  color-scheme: dark;
+  --bg-color: #121212;
+}
+
+figure:has(pre) {
+  margin: 0;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem 0;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #9ca3af4d;
+  border-radius: .25rem;
+}
+
+pre code {
+  display: grid;
+}
+ 
+pre [data-line] {
+  padding: 0 1rem;
+}
+
+pre[data-theme*=" "],
+pre[data-theme*=" "] span {
+  color: var(--shiki-light);
+  background-color: var(--shiki-light-bg);
+  font-style: var(--shiki-light-font-style);
+  font-weight: var(--shiki-light-font-weight);
+  text-decoration: var(--shiki-light-text-decoration);
+}
+ 
+html.dark pre[data-theme*=" "],
+html.dark pre[data-theme*=" "] span {
+    color: var(--shiki-dark);
+    background-color: var(--shiki-dark-bg);
+    font-style: var(--shiki-dark-font-style);
+    font-weight: var(--shiki-dark-font-weight);
+    text-decoration: var(--shiki-dark-text-decoration);
+}
