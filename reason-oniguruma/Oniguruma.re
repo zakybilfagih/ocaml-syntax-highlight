@@ -1,1 +1,0 @@
-module OnigRegExp = OnigRegExp;

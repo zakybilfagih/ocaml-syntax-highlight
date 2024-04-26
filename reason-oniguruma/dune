@@ -1,7 +1,0 @@
-(library
- (name oniguruma)
- (public_name textmate.oniguruma)
- (foreign_stubs
-  (language c)
-  (names bindings))
- (c_library_flags (-lonig)))
