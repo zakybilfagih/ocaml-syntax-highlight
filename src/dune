@@ -1,6 +1,6 @@
 (library
  (name textmate)
  (public_name textmate)
- (libraries oniguruma yojson markup decoders-yojson str)
+ (libraries oni2-oniguruma yojson markup decoders-yojson str)
  (preprocess
   (pps ppx_let ppx_deriving.show)))

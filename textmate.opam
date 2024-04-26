@@ -8,6 +8,8 @@ depends: [
   "markup"
   "ppx_let"
   "ppx_deriving"
+  "decoders-yojson"
+  "ppx_deriving_yojson" {with-test}
   "ocaml-lsp-server" {with-test}
   "ocamlformat" {with-test}
   "odoc" {with-doc}
@@ -25,4 +27,7 @@ build: [
     "@runtest" {with-test}
     "@doc" {with-doc}
   ]
+]
+pin-depends: [
+  ["oni2-oniguruma.dev" "git+https://github.com/zakybilfagih/oni2-oniguruma.git"]
 ]

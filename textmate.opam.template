@@ -1,0 +1,3 @@
+pin-depends: [
+  ["oni2-oniguruma.dev" "git+https://github.com/zakybilfagih/oni2-oniguruma.git"]
+]
