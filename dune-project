@@ -14,6 +14,7 @@
   ppx_let
   ppx_deriving
   decoders-yojson
+  (alcotest :with-test)
   (ppx_deriving_yojson :with-test)
   (ocaml-lsp-server :with-test)
   (ocamlformat :with-test)))
